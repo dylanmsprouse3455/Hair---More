@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Hair & More | Walk-Ins Welcome</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<style>
+:root {
+  --red: #c62828;
+  --blue: #1e3a8a;
+  --light: #f4f4f4;
+  --dark: #141414;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  color: var(--dark);
+  background: #fff;
+}
+
+/* HEADER */
+header {
+  border-bottom: 4px solid var(--red);
+}
+
+.header-inner {
+  max-width: 1100px;
+  margin: auto;
+  padding: 14px 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.brand {
+  font-weight: 900;
+  letter-spacing: .14em;
+  color: var(--red);
+  text-shadow:
+    -1px -1px 0 var(--blue),
+     1px -1px 0 var(--blue),
+    -1px  1px 0 var(--blue),
+     1px  1px 0 var(--blue);
+}
+
+.menu-btn {
+  font-size: 1.1rem;
+  font-weight: 800;
+  padding: 12px 18px;
+  background: var(--blue);
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+/* MENU OVERLAY */
+.menu-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.4);
+  display: none;
+  z-index: 900;
+}
+
+.menu-overlay.open {
+  display: block;
+}
+
+/* SLIDE MENU */
+.menu-panel {
+  position: fixed;
+  top: 0;
+  right: -100%;
+  width: 80%;
+  max-width: 360px;
+  height: 100%;
+  background: #fff;
+  border-left: 6px solid var(--red);
+  padding: 24px;
+  transition: right .3s ease;
+  z-index: 1000;
+}
+
+.menu-panel.open {
+  right: 0;
+}
+
+.menu-phone {
+  font-size: 1.3rem;
+  font-weight: 900;
+  color: var(--red);
+  margin-bottom: 20px;
+}
+
+.menu-panel a {
+  display: block;
+  font-size: 1.2rem;
+  font-weight: 800;
+  margin-bottom: 18px;
+  color: var(--blue);
+  text-decoration: none;
+}
+
+/* HERO */
+.hero {
+  max-width: 1100px;
+  margin: 2rem auto;
+  padding: 0 16px;
+  display: grid;
+  grid-template-columns: 1.1fr .9fr;
+  gap: 2rem;
+}
+
+.badge {
+  background: var(--blue);
+  color: #fff;
+  display: inline-block;
+  padding: 8px 14px;
+  font-size: .8rem;
+  font-weight: 800;
+  letter-spacing: .12em;
+}
+
+.hero h1 {
+  margin: .6rem 0 .4rem;
+  font-size: clamp(2.4rem, 4vw, 3rem);
+}
+
+.hero-contact {
+  margin: .6rem 0 1rem;
+  font-weight: 800;
+}
+
+.hero-contact a {
+  display: block;
+  font-size: 1.4rem;
+  color: var(--red);
+  text-decoration: none;
+}
+
+.hero-contact span {
+  display: block;
+  margin-top: .2rem;
+}
+
+/* HOURS */
+.panel {
+  background: var(--light);
+  border-left: 6px solid var(--red);
+  padding: 16px;
+}
+
+.hours {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 6px;
+}
+
+.hour {
+  background: #fff;
+  padding: 6px 10px;
+  display: flex;
+  justify-content: space-between;
+  font-weight: 600;
+}
+
+/* SECTIONS */
+.section {
+  max-width: 1100px;
+  margin: 2rem auto;
+  padding: 0 16px;
+}
+
+.section h2 {
+  margin-bottom: .6rem;
+  border-bottom: 3px solid var(--blue);
+  display: inline-block;
+  padding-bottom: 4px;
+}
+
+/* ACCORDION */
+.accordion {
+  max-width: 600px;
+}
+
+.accordion-header {
+  width: 100%;
+  background: var(--blue);
+  color: #fff;
+  border: none;
+  padding: 18px 20px;
+  font-size: 1.1rem;
+  font-weight: 900;
+  letter-spacing: .08em;
+  text-align: left;
+  cursor: pointer;
+}
+
+.accordion-header::after {
+  content: "+";
+  float: right;
+  font-size: 1.4rem;
+}
+
+.accordion-header.active::after {
+  content: "–";
+}
+
+.accordion-panel {
+  background: var(--light);
+  padding: 0 20px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height .25s ease;
+  border-left: 6px solid var(--red);
+}
+
+.accordion-panel p {
+  margin: 16px 0;
+  font-weight: 600;
+}
+
+/* MOBILE */
+@media (max-width: 850px) {
+  .hero {
+    grid-template-columns: 1fr;
+  }
+  .hours {
+    grid-template-columns: 1fr;
+  }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  <div class="header-inner">
+    <div class="brand">HAIR & MORE</div>
+    <button class="menu-btn" onclick="toggleMenu()">☰ MENU</button>
+  </div>
+</header>
+
+<div class="menu-overlay" id="overlay" onclick="toggleMenu()"></div>
+
+<div class="menu-panel" id="menu">
+  <div class="menu-phone">(423) 787-0005</div>
+  <a href="#services" onclick="toggleMenu()">Services</a>
+  <a href="#products" onclick="toggleMenu()">Products</a>
+  <a href="#about" onclick="toggleMenu()">About</a>
+  <a href="#hours" onclick="toggleMenu()">Hours</a>
+  <a href="#contact" onclick="toggleMenu()">Location</a>
+</div>
+
+<main>
+
+<section class="hero">
+  <div>
+    <div class="badge">WALK-INS WELCOME</div>
+    <h1>Local. Professional. Straightforward.</h1>
+
+    <div class="hero-contact">
+      <a href="tel:14237870005">(423) 787-0005</a>
+      <span>2400 E Andrew Johnson Hwy, Greeneville</span>
+    </div>
+
+    <p>
+      A full-service salon offering haircuts, color, perms and styling for the whole family.
+      Professional products available in store.
+    </p>
+  </div>
+
+  <div class="panel" id="hours">
+    <h3>Business Hours</h3>
+    <div class="hours">
+      <div class="hour"><span>Monday</span><span>CLOSED</span></div>
+      <div class="hour"><span>Tuesday</span><span>9–5</span></div>
+      <div class="hour"><span>Wednesday</span><span>9–5</span></div>
+      <div class="hour"><span>Thursday</span><span>9–5</span></div>
+      <div class="hour"><span>Friday</span><span>9–5</span></div>
+      <div class="hour"><span>Saturday</span><span>9–4</span></div>
+      <div class="hour"><span>Sunday</span><span>CLOSED</span></div>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="services">
+  <h2>Services</h2>
+  <div class="accordion">
+    <button class="accordion-header">SALON SERVICES</button>
+    <div class="accordion-panel">
+      <p>Service details will be added here.</p>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="products">
+  <h2>Products</h2>
+  <div class="accordion">
+    <button class="accordion-header">PROFESSIONAL PRODUCTS IN STORE</button>
+    <div class="accordion-panel">
+      <p>Product list will be added after inventory review.</p>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="about">
+  <h2>About</h2>
+  <p>This section will be completed with the owner.</p>
+</section>
+
+<section class="section" id="contact">
+  <h2>Location</h2>
+  <p>
+    2400 E Andrew Johnson Hwy<br>
+    Greeneville, TN 37745
+  </p>
+</section>
+
+</main>
+
+<script>
+function toggleMenu() {
+  document.getElementById("menu").classList.toggle("open");
+  document.getElementById("overlay").classList.toggle("open");
+}
+
+document.querySelectorAll(".accordion-header").forEach(btn => {
+  btn.addEventListener("click", () => {
+    btn.classList.toggle("active");
+    const panel = btn.nextElementSibling;
+    panel.style.maxHeight = panel.style.maxHeight
+      ? null
+      : panel.scrollHeight + "px";
+  });
+});
+</script>
+
+</body>
+</html>
