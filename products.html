@@ -1,0 +1,984 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Products | Hair & More Salon in Greeneville, TN</title>
+  <meta
+    name="description"
+    content="Browse professional salon products available at Hair & More in Greeneville, TN, including shampoos, conditioners, styling sprays, gels, treatments, and more."
+  />
+
+  <style>
+    :root {
+      --navy: #071f44;
+      --navy-2: #0b2e63;
+      --red: #d7192f;
+      --red-dark: #a80f20;
+      --white: #ffffff;
+      --soft: #f6f7fb;
+      --text: #111827;
+      --muted: #5f6b7a;
+      --line: rgba(7, 31, 68, 0.14);
+      --shadow: 0 18px 50px rgba(7, 31, 68, 0.16);
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+      width: 100%;
+      max-width: 100%;
+      overflow-x: hidden;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background: var(--soft);
+      color: var(--text);
+      width: 100%;
+      max-width: 100%;
+      overflow-x: hidden;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    img {
+      max-width: 100%;
+      display: block;
+    }
+
+    .top-bar {
+      background: var(--navy);
+      color: white;
+      font-size: 14px;
+      padding: 10px 5%;
+      display: flex;
+      justify-content: space-between;
+      gap: 16px;
+      align-items: center;
+    }
+
+    .top-bar span {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      opacity: 0.95;
+    }
+
+    .navbar {
+      background: white;
+      padding: 16px 5%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      box-shadow: 0 8px 25px rgba(0, 0, 0, 0.06);
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+
+    .logo-link {
+      display: inline-flex;
+      align-items: center;
+      min-width: 0;
+    }
+
+    .nav-logo {
+      width: 230px;
+      max-width: 100%;
+    }
+
+    .nav-links {
+      display: flex;
+      align-items: center;
+      gap: 24px;
+      font-size: 13px;
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      color: var(--navy);
+    }
+
+    .nav-links a:hover,
+    .nav-links .active-link {
+      color: var(--red);
+    }
+
+    .book-btn {
+      background: var(--red);
+      color: white !important;
+      padding: 13px 20px;
+      border-radius: 8px;
+      font-weight: 900;
+      box-shadow: 0 10px 25px rgba(215, 25, 47, 0.25);
+    }
+
+    .mobile-menu-btn {
+      display: none;
+      width: 54px;
+      height: 54px;
+      border: 1px solid rgba(7, 31, 68, 0.12);
+      background: rgba(255, 255, 255, 0.9);
+      border-radius: 18px;
+      box-shadow: 0 14px 32px rgba(7, 31, 68, 0.18);
+      backdrop-filter: blur(14px);
+      cursor: pointer;
+      position: relative;
+      place-items: center;
+      padding: 0;
+      flex-shrink: 0;
+    }
+
+    .mobile-menu-btn span {
+      position: absolute;
+      width: 23px;
+      height: 3px;
+      border-radius: 999px;
+      background: var(--navy);
+      transition: transform 0.22s ease, background 0.22s ease;
+    }
+
+    .mobile-menu-btn span:first-child {
+      transform: translateY(-5px);
+    }
+
+    .mobile-menu-btn span:last-child {
+      transform: translateY(5px);
+    }
+
+    .mobile-menu-btn.active {
+      background: var(--navy);
+    }
+
+    .mobile-menu-btn.active span {
+      background: white;
+    }
+
+    .mobile-menu-btn.active span:first-child {
+      transform: rotate(45deg);
+    }
+
+    .mobile-menu-btn.active span:last-child {
+      transform: rotate(-45deg);
+    }
+
+    .mobile-panel {
+      display: none;
+    }
+
+    .mobile-panel.open {
+      position: fixed;
+      top: 86px;
+      right: 16px;
+      left: 16px;
+      z-index: 90;
+      display: grid;
+      gap: 8px;
+      padding: 12px;
+      border-radius: 26px;
+      background: rgba(255, 255, 255, 0.94);
+      border: 1px solid rgba(7, 31, 68, 0.1);
+      box-shadow: 0 22px 55px rgba(7, 31, 68, 0.22);
+      backdrop-filter: blur(18px);
+      animation: menuDrop 0.18s ease both;
+    }
+
+    .mobile-panel a {
+      padding: 15px 16px;
+      border-radius: 18px;
+      background: #f6f7fb;
+      color: var(--navy);
+      font-weight: 900;
+      letter-spacing: 0.03em;
+    }
+
+    .mobile-panel a:last-child {
+      background: var(--red);
+      color: white;
+    }
+
+    @keyframes menuDrop {
+      from {
+        opacity: 0;
+        transform: translateY(-8px) scale(0.98);
+      }
+
+      to {
+        opacity: 1;
+        transform: translateY(0) scale(1);
+      }
+    }
+
+    .eyebrow {
+      color: var(--red);
+      font-weight: 900;
+      text-transform: uppercase;
+      letter-spacing: 0.14em;
+      font-size: 12px;
+      margin: 0 0 8px;
+    }
+
+    .primary-btn,
+    .secondary-btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 48px;
+      padding: 14px 22px;
+      border-radius: 8px;
+      font-weight: 900;
+      text-transform: uppercase;
+      font-size: 14px;
+      letter-spacing: 0.04em;
+    }
+
+    .primary-btn {
+      background: var(--red);
+      color: white;
+      box-shadow: 0 12px 28px rgba(215, 25, 47, 0.28);
+    }
+
+    .primary-btn:hover {
+      background: var(--red-dark);
+    }
+
+    .secondary-btn {
+      background: white;
+      color: var(--navy);
+      border: 2px solid var(--navy);
+    }
+
+    .secondary-btn:hover {
+      background: var(--navy);
+      color: white;
+    }
+
+    /* ============================= */
+    /* PRODUCTS PAGE */
+    /* ============================= */
+
+    .products-page-hero {
+      padding: 90px 5% 72px;
+      background:
+        radial-gradient(circle at top left, rgba(215, 25, 47, 0.16), transparent 34%),
+        linear-gradient(135deg, #ffffff, #f6f7fb);
+      text-align: center;
+    }
+
+    .products-hero-inner {
+      max-width: 950px;
+      margin: 0 auto;
+    }
+
+    .products-hero-inner h1 {
+      margin: 10px 0 18px;
+      color: var(--navy);
+      font-size: clamp(42px, 8vw, 82px);
+      line-height: 0.9;
+      letter-spacing: -0.06em;
+    }
+
+    .products-hero-inner p {
+      max-width: 720px;
+      margin: 0 auto;
+      color: var(--muted);
+      font-size: 18px;
+      line-height: 1.6;
+    }
+
+    .products-hero-actions {
+      margin-top: 28px;
+      display: flex;
+      justify-content: center;
+      gap: 14px;
+      flex-wrap: wrap;
+    }
+
+    .product-controls-section {
+      position: sticky;
+      top: 78px;
+      z-index: 80;
+      padding: 16px 5%;
+      background: rgba(255, 255, 255, 0.95);
+      border-top: 1px solid rgba(7, 31, 68, 0.08);
+      border-bottom: 1px solid rgba(7, 31, 68, 0.08);
+      box-shadow: 0 10px 22px rgba(7, 31, 68, 0.06);
+      backdrop-filter: blur(12px);
+    }
+
+    .product-controls {
+      max-width: 1200px;
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: 1.3fr 0.7fr 0.7fr;
+      gap: 14px;
+      align-items: end;
+    }
+
+    .product-search-wrap,
+    .product-filter-wrap {
+      display: grid;
+      gap: 7px;
+    }
+
+    .product-search-wrap label,
+    .product-filter-wrap label {
+      color: var(--navy);
+      font-size: 12px;
+      font-weight: 900;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+    }
+
+    .product-search-wrap input,
+    .product-filter-wrap select {
+      width: 100%;
+      min-height: 48px;
+      border: 1px solid rgba(7, 31, 68, 0.14);
+      border-radius: 14px;
+      background: #f6f7fb;
+      color: var(--text);
+      font-size: 15px;
+      font-weight: 700;
+      padding: 0 14px;
+      outline: none;
+    }
+
+    .product-search-wrap input:focus,
+    .product-filter-wrap select:focus {
+      border-color: var(--red);
+      box-shadow: 0 0 0 4px rgba(215, 25, 47, 0.1);
+      background: white;
+    }
+
+    .products-section {
+      padding: 70px 5%;
+      background: var(--soft);
+    }
+
+    .products-header {
+      max-width: 850px;
+      margin: 0 auto 28px;
+      text-align: center;
+    }
+
+    .products-header h2 {
+      margin: 8px 0 12px;
+      color: var(--navy);
+      font-size: clamp(34px, 6vw, 58px);
+      line-height: 0.95;
+      letter-spacing: -0.05em;
+    }
+
+    .products-header p {
+      margin: 0 auto;
+      max-width: 700px;
+      color: var(--muted);
+      line-height: 1.6;
+      font-size: 17px;
+    }
+
+    .product-count {
+      max-width: 1200px;
+      margin: 0 auto 18px;
+      color: var(--navy);
+      font-weight: 900;
+      font-size: 14px;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+    }
+
+    .product-grid {
+      max-width: 1200px;
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 18px;
+    }
+
+    .product-card {
+      background: white;
+      border-radius: 24px;
+      padding: 22px;
+      border: 1px solid rgba(7, 31, 68, 0.1);
+      box-shadow: 0 14px 34px rgba(7, 31, 68, 0.1);
+      display: grid;
+      gap: 14px;
+      min-height: 210px;
+    }
+
+    .product-top {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      gap: 14px;
+    }
+
+    .product-brand {
+      display: inline-flex;
+      width: fit-content;
+      padding: 7px 10px;
+      border-radius: 999px;
+      background: rgba(215, 25, 47, 0.1);
+      color: var(--red);
+      font-size: 12px;
+      font-weight: 900;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+    }
+
+    .product-price {
+      color: var(--red);
+      font-size: 24px;
+      font-weight: 900;
+      white-space: nowrap;
+      line-height: 1;
+    }
+
+    .product-card h3 {
+      margin: 0;
+      color: var(--navy);
+      font-size: 22px;
+      line-height: 1.1;
+      letter-spacing: -0.03em;
+    }
+
+    .product-category {
+      display: inline-flex;
+      width: fit-content;
+      padding: 8px 12px;
+      border-radius: 999px;
+      background: #eef1f7;
+      color: var(--navy);
+      font-size: 13px;
+      font-weight: 900;
+    }
+
+    .product-note-card {
+      margin-top: auto;
+      color: var(--muted);
+      font-size: 14px;
+      line-height: 1.45;
+    }
+
+    .no-products {
+      max-width: 720px;
+      margin: 32px auto 0;
+      padding: 34px 22px;
+      border-radius: 24px;
+      background: white;
+      box-shadow: 0 14px 34px rgba(7, 31, 68, 0.1);
+      text-align: center;
+    }
+
+    .no-products h3 {
+      margin: 0 0 8px;
+      color: var(--navy);
+      font-size: 28px;
+    }
+
+    .no-products p {
+      margin: 0;
+      color: var(--muted);
+    }
+
+    .products-bottom-cta {
+      padding: 60px 5%;
+      background: var(--navy);
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 34px;
+      flex-wrap: wrap;
+      text-align: left;
+      border-top: 8px solid var(--red);
+    }
+
+    .products-bottom-cta div {
+      max-width: 650px;
+    }
+
+    .products-bottom-cta h2 {
+      margin: 8px 0 12px;
+      font-size: clamp(32px, 5vw, 52px);
+      line-height: 0.95;
+      letter-spacing: -0.05em;
+    }
+
+    .products-bottom-cta p {
+      margin: 0;
+      color: rgba(255, 255, 255, 0.78);
+      line-height: 1.6;
+    }
+
+    .products-bottom-cta .primary-btn {
+      background: var(--red);
+      color: white;
+    }
+
+    footer {
+      background: #04142d;
+      color: rgba(255, 255, 255, 0.75);
+      text-align: center;
+      padding: 22px 5%;
+      font-size: 14px;
+    }
+
+    footer p {
+      margin: 0;
+    }
+
+    .sticky-mobile-call {
+      display: none;
+    }
+
+    /* ============================= */
+    /* MOBILE */
+    /* ============================= */
+
+    @media (max-width: 1000px) {
+      .product-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+
+      .product-controls {
+        grid-template-columns: 1fr;
+      }
+
+      .product-controls-section {
+        position: static;
+      }
+    }
+
+    @media (max-width: 900px) {
+      .top-bar {
+        display: none;
+      }
+
+      .nav-links {
+        display: none;
+      }
+
+      .mobile-menu-btn {
+        display: grid;
+      }
+
+      .navbar {
+        padding: 14px 5%;
+      }
+
+      .nav-logo {
+        width: 230px;
+        max-width: calc(100vw - 120px);
+      }
+
+      .products-page-hero {
+        padding: 70px 5% 56px;
+      }
+
+      .products-hero-actions .primary-btn,
+      .products-hero-actions .secondary-btn {
+        width: 100%;
+        max-width: 520px;
+      }
+
+      .products-bottom-cta {
+        text-align: center;
+      }
+
+      .sticky-mobile-call {
+        position: fixed;
+        left: 16px;
+        right: 16px;
+        bottom: calc(18px + env(safe-area-inset-bottom));
+        z-index: 1000;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        background: var(--red);
+        color: white;
+        font-weight: 900;
+        padding: 16px 18px;
+        border-radius: 18px;
+        box-shadow: 0 15px 35px rgba(215, 25, 47, 0.35);
+      }
+
+      body {
+        padding-bottom: calc(120px + env(safe-area-inset-bottom));
+      }
+    }
+
+    @media (max-width: 640px) {
+      .product-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .products-section {
+        padding: 48px 4%;
+      }
+
+      .products-page-hero {
+        padding: 56px 4% 48px;
+      }
+
+      .products-hero-inner h1 {
+        font-size: 42px;
+      }
+
+      .products-hero-inner p {
+        font-size: 16px;
+      }
+
+      .product-card {
+        padding: 20px;
+        border-radius: 22px;
+      }
+
+      .product-top {
+        align-items: center;
+      }
+
+      .product-card h3 {
+        font-size: 21px;
+      }
+
+      .product-price {
+        font-size: 22px;
+      }
+
+      .products-bottom-cta {
+        padding: 48px 4%;
+      }
+    }
+
+    @media (max-width: 540px) {
+      .navbar {
+        padding: 12px 4%;
+      }
+
+      .nav-logo {
+        width: 205px;
+        max-width: calc(100vw - 110px);
+      }
+
+      .mobile-menu-btn {
+        width: 50px;
+        height: 50px;
+        border-radius: 18px;
+      }
+
+      .mobile-panel.open {
+        top: 78px;
+        left: 12px;
+        right: 12px;
+      }
+
+      .sticky-mobile-call {
+        left: 14px;
+        right: 14px;
+        bottom: calc(14px + env(safe-area-inset-bottom));
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="top-bar">
+    <span>☎ (423) 787-0005</span>
+    <span>📍 827 Tusculum Boulevard, Greeneville, TN 37745</span>
+    <span>Walk-Ins Welcome!</span>
+  </div>
+
+  <header class="navbar">
+    <a href="index.html#home" class="logo-link">
+      <img src="logo.png" alt="Hair & More logo" class="nav-logo" />
+    </a>
+
+    <nav class="nav-links">
+      <a href="index.html#home">Home</a>
+      <a href="services.html">Services</a>
+      <a href="products.html" class="active-link">Products</a>
+      <a href="index.html#about">About</a>
+      <a href="index.html#results">Results</a>
+      <a href="index.html#gallery">Gallery</a>
+      <a href="index.html#contact">Contact</a>
+      <a href="index.html#contact" class="book-btn">Book Now</a>
+    </nav>
+
+    <button class="mobile-menu-btn" id="menuBtn" aria-label="Open menu">
+      <span></span>
+      <span></span>
+    </button>
+  </header>
+
+  <nav class="mobile-panel" id="mobilePanel">
+    <a href="index.html#home">Home</a>
+    <a href="services.html">Services</a>
+    <a href="products.html">Products</a>
+    <a href="index.html#about">About</a>
+    <a href="index.html#results">Results</a>
+    <a href="index.html#gallery">Gallery</a>
+    <a href="index.html#contact">Contact</a>
+    <a href="index.html#contact">Book Now</a>
+  </nav>
+
+  <main>
+    <section class="products-page-hero">
+      <div class="products-hero-inner">
+        <p class="eyebrow">Hair & More</p>
+        <h1>Salon Products</h1>
+        <p>
+          Browse professional salon products carried at Hair & More, including
+          shampoos, conditioners, sprays, gels, mousse, treatments, and styling products.
+        </p>
+
+        <div class="products-hero-actions">
+          <a href="tel:4237870005" class="primary-btn">Call To Ask</a>
+          <a href="#product-list" class="secondary-btn">View Products</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="product-controls-section">
+      <div class="product-controls">
+        <div class="product-search-wrap">
+          <label for="productSearch">Search Products</label>
+          <input
+            type="search"
+            id="productSearch"
+            placeholder="Search by brand, product, or category..."
+          />
+        </div>
+
+        <div class="product-filter-wrap">
+          <label for="categoryFilter">Category</label>
+          <select id="categoryFilter">
+            <option value="all">All Categories</option>
+          </select>
+        </div>
+
+        <div class="product-filter-wrap">
+          <label for="brandFilter">Brand</label>
+          <select id="brandFilter">
+            <option value="all">All Brands</option>
+          </select>
+        </div>
+      </div>
+    </section>
+
+    <section class="products-section" id="product-list">
+      <div class="products-header">
+        <p class="eyebrow">Available Products</p>
+        <h2>Shop professional hair care in salon.</h2>
+        <p>
+          Product availability may vary. Call or stop by Hair & More to see what is currently in stock.
+        </p>
+      </div>
+
+      <div class="product-count" id="productCount">
+        Loading products...
+      </div>
+
+      <div class="product-grid" id="productGrid"></div>
+
+      <div class="no-products" id="noProducts" hidden>
+        <h3>No products found.</h3>
+        <p>Try searching for a different brand, product, or category.</p>
+      </div>
+    </section>
+
+    <section class="products-bottom-cta">
+      <div>
+        <p class="eyebrow">Need Something Specific?</p>
+        <h2>Call Hair & More before you stop by.</h2>
+        <p>
+          Products may change depending on what is currently in stock, so calling ahead is the easiest move.
+        </p>
+      </div>
+
+      <a href="tel:4237870005" class="primary-btn">Call Hair & More</a>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2026 Hair & More. Website concept by DS Digital Designs.</p>
+  </footer>
+
+  <a href="tel:4237870005" class="sticky-mobile-call">
+    ☎ Call Hair & More
+  </a>
+
+  <script>
+    const menuBtn = document.getElementById("menuBtn");
+    const mobilePanel = document.getElementById("mobilePanel");
+
+    if (menuBtn && mobilePanel) {
+      menuBtn.addEventListener("click", () => {
+        menuBtn.classList.toggle("active");
+        mobilePanel.classList.toggle("open");
+      });
+
+      mobilePanel.querySelectorAll("a").forEach((link) => {
+        link.addEventListener("click", () => {
+          menuBtn.classList.remove("active");
+          mobilePanel.classList.remove("open");
+        });
+      });
+    }
+
+    const productGrid = document.getElementById("productGrid");
+    const productCount = document.getElementById("productCount");
+    const noProducts = document.getElementById("noProducts");
+    const productSearch = document.getElementById("productSearch");
+    const categoryFilter = document.getElementById("categoryFilter");
+    const brandFilter = document.getElementById("brandFilter");
+
+    let allProducts = [];
+
+    function normalizeProduct(product) {
+      return {
+        brand: product.brand || "Hair & More",
+        name: product.name || product.product || "Salon Product",
+        category: product.category || "Product",
+        price: product.price || "Ask"
+      };
+    }
+
+    function sortProducts(products) {
+      return [...products].sort((a, b) => {
+        const brandCompare = a.brand.localeCompare(b.brand);
+        if (brandCompare !== 0) return brandCompare;
+
+        const categoryCompare = a.category.localeCompare(b.category);
+        if (categoryCompare !== 0) return categoryCompare;
+
+        return a.name.localeCompare(b.name);
+      });
+    }
+
+    function buildFilters(products) {
+      const categories = [...new Set(products.map((p) => p.category).filter(Boolean))].sort();
+      const brands = [...new Set(products.map((p) => p.brand).filter(Boolean))].sort();
+
+      categories.forEach((category) => {
+        const option = document.createElement("option");
+        option.value = category;
+        option.textContent = category;
+        categoryFilter.appendChild(option);
+      });
+
+      brands.forEach((brand) => {
+        const option = document.createElement("option");
+        option.value = brand;
+        option.textContent = brand;
+        brandFilter.appendChild(option);
+      });
+    }
+
+    function renderProducts() {
+      const searchTerm = productSearch.value.trim().toLowerCase();
+      const selectedCategory = categoryFilter.value;
+      const selectedBrand = brandFilter.value;
+
+      const filteredProducts = allProducts.filter((product) => {
+        const searchText = `${product.brand} ${product.name} ${product.category} ${product.price}`.toLowerCase();
+
+        const matchesSearch = !searchTerm || searchText.includes(searchTerm);
+        const matchesCategory = selectedCategory === "all" || product.category === selectedCategory;
+        const matchesBrand = selectedBrand === "all" || product.brand === selectedBrand;
+
+        return matchesSearch && matchesCategory && matchesBrand;
+      });
+
+      productGrid.innerHTML = "";
+
+      filteredProducts.forEach((product) => {
+        const card = document.createElement("article");
+        card.className = "product-card";
+
+        card.innerHTML = `
+          <div class="product-top">
+            <span class="product-brand">${product.brand}</span>
+            <strong class="product-price">${product.price}</strong>
+          </div>
+
+          <h3>${product.name}</h3>
+
+          <span class="product-category">${product.category}</span>
+
+          <p class="product-note-card">
+            Available in salon. Call to confirm current stock.
+          </p>
+        `;
+
+        productGrid.appendChild(card);
+      });
+
+      productCount.textContent =
+        filteredProducts.length === 1
+          ? "Showing 1 product"
+          : `Showing ${filteredProducts.length} products`;
+
+      noProducts.hidden = filteredProducts.length !== 0;
+    }
+
+    async function loadProducts() {
+      try {
+        const response = await fetch("products.json");
+
+        if (!response.ok) {
+          throw new Error("Could not load products.json");
+        }
+
+        const data = await response.json();
+
+        const rawProducts = Array.isArray(data)
+          ? data
+          : Array.isArray(data.products)
+            ? data.products
+            : [];
+
+        allProducts = sortProducts(rawProducts.map(normalizeProduct));
+
+        buildFilters(allProducts);
+        renderProducts();
+      } catch (error) {
+        console.error(error);
+        productCount.textContent = "Products could not be loaded.";
+        productGrid.innerHTML = `
+          <article class="product-card">
+            <div class="product-top">
+              <span class="product-brand">Hair & More</span>
+              <strong class="product-price">Call</strong>
+            </div>
+
+            <h3>Product list unavailable</h3>
+
+            <span class="product-category">Salon Products</span>
+
+            <p class="product-note-card">
+              Please make sure products.json is in the same folder as this page.
+            </p>
+          </article>
+        `;
+      }
+    }
+
+    productSearch.addEventListener("input", renderProducts);
+    categoryFilter.addEventListener("change", renderProducts);
+    brandFilter.addEventListener("change", renderProducts);
+
+    loadProducts();
+  </script>
+</body>
+</html>

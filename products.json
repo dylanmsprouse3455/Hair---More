@@ -1,0 +1,1388 @@
+[
+  {
+    "brand": "Joico",
+    "name": "Intense Hydrator",
+    "category": "Conditioner",
+    "price": "$17.95"
+  },
+  {
+    "brand": "Joico",
+    "name": "Smooth Shampoo",
+    "category": "Shampoo",
+    "price": "$14.95"
+  },
+  {
+    "brand": "Joico",
+    "name": "Reconstructor Conditioner",
+    "category": "Conditioner",
+    "price": "$15.95"
+  },
+  {
+    "brand": "Joico",
+    "name": "Protective Hair Spray",
+    "category": "Spray",
+    "price": "$15.95"
+  },
+  {
+    "brand": "Joico",
+    "name": "Molding Mousse",
+    "category": "Mousse",
+    "price": "$26.95"
+  },
+  {
+    "brand": "Joico",
+    "name": "Moisture Recovery Shampoo",
+    "category": "Shampoo",
+    "price": "$22.00"
+  },
+  {
+    "brand": "Joico",
+    "name": "Daily Care Conditioner",
+    "category": "Conditioner",
+    "price": "$26.95"
+  },
+  {
+    "brand": "Joico",
+    "name": "Silk Result Smooth Shampoo",
+    "category": "Shampoo",
+    "price": "$13.95"
+  },
+  {
+    "brand": "Joico",
+    "name": "Silk Result Smooth Conditioner",
+    "category": "Conditioner",
+    "price": "$28.95"
+  },
+  {
+    "brand": "CliniCure",
+    "name": "Natural Shampoo",
+    "category": "Shampoo",
+    "price": "$15.95"
+  },
+  {
+    "brand": "CliniCure",
+    "name": "Natural Conditioner",
+    "category": "Conditioner",
+    "price": "$18.95"
+  },
+  {
+    "brand": "CliniCure",
+    "name": "Natural Treatment Conditioner",
+    "category": "Conditioner",
+    "price": "$13.95"
+  },
+  {
+    "brand": "CliniCure",
+    "name": "Chemical Shampoo",
+    "category": "Shampoo",
+    "price": "$13.95"
+  },
+  {
+    "brand": "CliniCure",
+    "name": "Chemical Conditioner",
+    "category": "Conditioner",
+    "price": "$15.95"
+  },
+  {
+    "brand": "CliniCure",
+    "name": "Rescue Chem Conditioner",
+    "category": "Conditioner",
+    "price": "$29.95"
+  },
+  {
+    "brand": "CliniCure",
+    "name": "3 Pack Trial",
+    "category": "Trial Kit",
+    "price": "$11.95"
+  },
+  {
+    "brand": "Redken",
+    "name": "All Soft Shampoo",
+    "category": "Shampoo",
+    "price": "$11.95"
+  },
+  {
+    "brand": "Redken",
+    "name": "All Soft Conditioner",
+    "category": "Conditioner",
+    "price": "$13.95"
+  },
+  {
+    "brand": "Redken",
+    "name": "All Soft Heavy Cream Conditioner",
+    "category": "Conditioner",
+    "price": "$23.00"
+  },
+  {
+    "brand": "Redken",
+    "name": "All Soft Gold Glimmer Conditioner",
+    "category": "Conditioner",
+    "price": "$15.95"
+  },
+  {
+    "brand": "Redken",
+    "name": "Smooth Lock Conditioner",
+    "category": "Conditioner",
+    "price": "$16.50"
+  },
+  {
+    "brand": "Redken",
+    "name": "Color Extend Shampoo",
+    "category": "Shampoo",
+    "price": "$11.95"
+  },
+  {
+    "brand": "Redken",
+    "name": "Color Total Recharge Conditioner",
+    "category": "Conditioner",
+    "price": "$14.95"
+  },
+  {
+    "brand": "Redken",
+    "name": "Smooth Butter Treatment Conditioner",
+    "category": "Conditioner",
+    "price": "$14.95"
+  },
+  {
+    "brand": "Redken",
+    "name": "Extreme Shampoo",
+    "category": "Shampoo",
+    "price": "$15.50"
+  },
+  {
+    "brand": "Redken",
+    "name": "Extreme Cat Conditioner",
+    "category": "Conditioner",
+    "price": "$14.95"
+  },
+  {
+    "brand": "Redken",
+    "name": "Fresh Curls Conditioner",
+    "category": "Conditioner",
+    "price": "$14.95"
+  },
+  {
+    "brand": "Redken",
+    "name": "Time Reset Shampoo",
+    "category": "Shampoo",
+    "price": "$14.95"
+  },
+  {
+    "brand": "Redken",
+    "name": "Time Reset Conditioner",
+    "category": "Conditioner",
+    "price": "$17.95"
+  },
+  {
+    "brand": "Redken",
+    "name": "Fashion Work Spray",
+    "category": "Spray",
+    "price": "$26.50"
+  },
+  {
+    "brand": "Redken",
+    "name": "Guts 10 Volume Mousse",
+    "category": "Mousse",
+    "price": "$21.00"
+  },
+  {
+    "brand": "Redken",
+    "name": "Workforce 09 Spray",
+    "category": "Spray",
+    "price": "$14.95"
+  },
+  {
+    "brand": "Redken",
+    "name": "Quick Dry 18 Spray",
+    "category": "Spray",
+    "price": "$23.50"
+  },
+  {
+    "brand": "Redken",
+    "name": "Headset 25 Xtra Spray",
+    "category": "Spray",
+    "price": "$12.95"
+  },
+  {
+    "brand": "Redken",
+    "name": "Spray Starch 15",
+    "category": "Spray",
+    "price": "$13.00"
+  },
+  {
+    "brand": "ISO",
+    "name": "Daily Shampoo",
+    "category": "Shampoo",
+    "price": "$12.50"
+  },
+  {
+    "brand": "ISO",
+    "name": "Daily Conditioner",
+    "category": "Conditioner",
+    "price": "$14.00"
+  },
+  {
+    "brand": "ISO",
+    "name": "Hydra Shampoo",
+    "category": "Shampoo",
+    "price": "$12.00"
+  },
+  {
+    "brand": "ISO",
+    "name": "Hydra Conditioner",
+    "category": "Conditioner",
+    "price": "$14.00"
+  },
+  {
+    "brand": "ISO",
+    "name": "Color Shampoo",
+    "category": "Shampoo",
+    "price": "$14.00"
+  },
+  {
+    "brand": "ISO",
+    "name": "Color Conditioner",
+    "category": "Conditioner",
+    "price": "$14.00"
+  },
+  {
+    "brand": "ISO",
+    "name": "Bouncy Shampoo",
+    "category": "Shampoo",
+    "price": "$12.50"
+  },
+  {
+    "brand": "ISO",
+    "name": "Bouncy Conditioner",
+    "category": "Conditioner",
+    "price": "$12.50"
+  },
+  {
+    "brand": "ISO",
+    "name": "Tamer Shampoo",
+    "category": "Shampoo",
+    "price": "$12.00"
+  },
+  {
+    "brand": "ISO",
+    "name": "Tamer Conditioner",
+    "category": "Conditioner",
+    "price": "$14.00"
+  },
+  {
+    "brand": "ISO",
+    "name": "Daily Styling Gel",
+    "category": "Gel",
+    "price": "$10.00"
+  },
+  {
+    "brand": "ISO",
+    "name": "Shine Gel",
+    "category": "Gel",
+    "price": "$10.00"
+  },
+  {
+    "brand": "ISO",
+    "name": "Tamer Conditioner",
+    "category": "Conditioner",
+    "price": "$11.00"
+  },
+  {
+    "brand": "ISO",
+    "name": "Firm Hold Gel",
+    "category": "Gel",
+    "price": "$14.00"
+  },
+  {
+    "brand": "Paul Mitchell",
+    "name": "Freeze Spray",
+    "category": "Spray",
+    "price": "$12.50"
+  },
+  {
+    "brand": "Paul Mitchell",
+    "name": "PM Express Hot Off The Press Spray",
+    "category": "Spray",
+    "price": "$24.50"
+  },
+  {
+    "brand": "Paul Mitchell",
+    "name": "Shampoo One",
+    "category": "Shampoo",
+    "price": "$17.00"
+  },
+  {
+    "brand": "Paul Mitchell",
+    "name": "Tea Tree Shampoo",
+    "category": "Shampoo",
+    "price": "$17.50"
+  },
+  {
+    "brand": "Paul Mitchell",
+    "name": "Tea Tree Conditioner",
+    "category": "Conditioner",
+    "price": "$19.50"
+  },
+  {
+    "brand": "Paul Mitchell",
+    "name": "Super Skinny Relaxing Balm",
+    "category": "Balm",
+    "price": "$22.50"
+  },
+  {
+    "brand": "Paul Mitchell",
+    "name": "Super Skinny Serum",
+    "category": "Serum",
+    "price": "$41.00"
+  },
+  {
+    "brand": "Paul Mitchell",
+    "name": "Super Skinny Conditioner",
+    "category": "Conditioner",
+    "price": "$16.50"
+  },
+  {
+    "brand": "Matrix",
+    "name": "Vavoom Glow Shine Wax",
+    "category": "Gel",
+    "price": "$14.00"
+  },
+  {
+    "brand": "Matrix",
+    "name": "Vavoom Switch Flicks Wax",
+    "category": "Gel",
+    "price": "$15.00"
+  },
+  {
+    "brand": "Matrix",
+    "name": "Biolage Color Shine Mist Conditioner",
+    "category": "Conditioner",
+    "price": "$14.00"
+  },
+  {
+    "brand": "Matrix",
+    "name": "Biolage Volume Shampoo",
+    "category": "Shampoo",
+    "price": "$17.00"
+  },
+  {
+    "brand": "Matrix",
+    "name": "Biolage Smoothing Balm Conditioner",
+    "category": "Conditioner",
+    "price": "$15.95"
+  },
+  {
+    "brand": "Matrix",
+    "name": "Biolage Freeze Hair Spray",
+    "category": "Spray",
+    "price": "$15.00"
+  },
+  {
+    "brand": "Matrix",
+    "name": "Biolage Foaming Mousse",
+    "category": "Mousse",
+    "price": "$16.00"
+  },
+  {
+    "brand": "Matrix",
+    "name": "Biolage Volume Spray Conditioner",
+    "category": "Conditioner",
+    "price": "$16.00"
+  },
+  {
+    "brand": "Matrix",
+    "name": "Sleek Look Shampoo",
+    "category": "Shampoo",
+    "price": "$15.00"
+  },
+  {
+    "brand": "Matrix",
+    "name": "Sleek Look Conditioner",
+    "category": "Conditioner",
+    "price": "$15.00"
+  },
+  {
+    "brand": "Matrix",
+    "name": "Sleek Look Reconstruct Conditioner",
+    "category": "Conditioner",
+    "price": "$16.00"
+  },
+  {
+    "brand": "Nioxin",
+    "name": "Shampoo",
+    "category": "Shampoo",
+    "price": "$19.50"
+  },
+  {
+    "brand": "Nioxin",
+    "name": "Conditioner",
+    "category": "Conditioner",
+    "price": "$19.50"
+  },
+  {
+    "brand": "Nioxin",
+    "name": "Thickening Spray Conditioner",
+    "category": "Spray",
+    "price": "$12.99"
+  },
+  {
+    "brand": "Nioxin",
+    "name": "Thermal Protector Conditioner",
+    "category": "Conditioner",
+    "price": "$11.99"
+  },
+  {
+    "brand": "Kenra",
+    "name": "Smoothing Creme Gel",
+    "category": "Gel",
+    "price": "$29.00"
+  },
+  {
+    "brand": "Kenra",
+    "name": "Silkening Gloss",
+    "category": "Gel",
+    "price": "$19.50"
+  },
+  {
+    "brand": "Kenra",
+    "name": "Medium Spray",
+    "category": "Spray",
+    "price": "$18.50"
+  },
+  {
+    "brand": "Kenra",
+    "name": "Texturizing Taffy",
+    "category": "Mousse",
+    "price": "$18.50"
+  },
+  {
+    "brand": "Big Sexy",
+    "name": "Big Sexy Spray & Play",
+    "category": "Spray",
+    "price": "$17.50"
+  },
+  {
+    "brand": "Big Sexy",
+    "name": "Big Sexy Root Pump",
+    "category": "Spray",
+    "price": "$18.50"
+  },
+  {
+    "brand": "ISO",
+    "name": "Bouncy Creme Conditioner",
+    "category": "Conditioner",
+    "price": "$25.00"
+  },
+  {
+    "brand": "Matrix",
+    "name": "Biolage Strengthening Conditioner",
+    "category": "Conditioner",
+    "price": "$25.00"
+  },
+  {
+    "brand": "Matrix",
+    "name": "Biolage Full Lift Shampoo",
+    "category": "Shampoo",
+    "price": "$21.00"
+  },
+  {
+    "brand": "Matrix",
+    "name": "Biolage Volume Conditioner",
+    "category": "Conditioner",
+    "price": "$25.00"
+  },
+  {
+    "brand": "Redken",
+    "name": "All Soft Shampoo",
+    "category": "Shampoo",
+    "price": "$29.95"
+  },
+  {
+    "brand": "Joico",
+    "name": "CliniCure Daily Conditioner",
+    "category": "Conditioner",
+    "price": "$29.95"
+  },
+  {
+    "brand": "Joico",
+    "name": "CliniCure Cleanse Shampoo",
+    "category": "Shampoo",
+    "price": "$29.95"
+  },
+  {
+    "brand": "Matrix",
+    "name": "Biolage Strengthening Conditioner",
+    "category": "Conditioner",
+    "price": "$27.95"
+  },
+  {
+    "brand": "Paul Mitchell",
+    "name": "Super Skinny Spray Lite",
+    "category": "Spray",
+    "price": "$21.95"
+  },
+  {
+    "brand": "Paul Mitchell",
+    "name": "Super Skinny Conditioner",
+    "category": "Conditioner",
+    "price": "$27.95"
+  },
+  {
+    "brand": "Paul Mitchell",
+    "name": "PM Body Conditioner Ltr",
+    "category": "Conditioner",
+    "price": "$21.95"
+  },
+  {
+    "brand": "Schwarzkopf",
+    "name": "Repair Shampoo",
+    "category": "Shampoo",
+    "price": "$26.00"
+  },
+  {
+    "brand": "Schwarzkopf",
+    "name": "Moisture Shampoo",
+    "category": "Shampoo",
+    "price": "$38.00"
+  },
+  {
+    "brand": "Schwarzkopf",
+    "name": "Repair F Shampoo",
+    "category": "Shampoo",
+    "price": "$15.50"
+  },
+  {
+    "brand": "Schwarzkopf",
+    "name": "Repair I Conditioner",
+    "category": "Conditioner",
+    "price": "$15.50"
+  },
+  {
+    "brand": "Schwarzkopf",
+    "name": "Smooth Shampoo",
+    "category": "Shampoo",
+    "price": "$15.50"
+  },
+  {
+    "brand": "Schwarzkopf",
+    "name": "Bonacure Conditioner",
+    "category": "Conditioner",
+    "price": "$14.95"
+  },
+  {
+    "brand": "Schwarzkopf",
+    "name": "Bonacure Conditioner",
+    "category": "Conditioner",
+    "price": "$9.95"
+  },
+  {
+    "brand": "Schwarzkopf",
+    "name": "Repair S Conditioner",
+    "category": "Conditioner",
+    "price": "$18.00"
+  },
+  {
+    "brand": "Schwarzkopf",
+    "name": "Moisture Shampoo",
+    "category": "Shampoo",
+    "price": "$11.00"
+  },
+  {
+    "brand": "Schwarzkopf",
+    "name": "Moisture Conditioner",
+    "category": "Conditioner",
+    "price": "$12.75"
+  },
+  {
+    "brand": "Schwarzkopf",
+    "name": "Color Conditioner",
+    "category": "Conditioner",
+    "price": "$11.00"
+  },
+  {
+    "brand": "Schwarzkopf",
+    "name": "Color Conditioner",
+    "category": "Conditioner",
+    "price": "$17.00"
+  },
+  {
+    "brand": "Schwarzkopf",
+    "name": "Color Conditioner",
+    "category": "Conditioner",
+    "price": "$9.95"
+  },
+  {
+    "brand": "Schwarzkopf",
+    "name": "Light Volume Shampoo",
+    "category": "Shampoo",
+    "price": "$15.50"
+  },
+  {
+    "brand": "Schwarzkopf",
+    "name": "Light Volume Spray",
+    "category": "Spray",
+    "price": "$18.00"
+  },
+  {
+    "brand": "Sleek Look",
+    "name": "Conditioner",
+    "category": "Conditioner",
+    "price": "$25.00"
+  },
+  {
+    "brand": "Nioxin",
+    "name": "Diamax Treatment Conditioner",
+    "category": "Conditioner",
+    "price": "$50.00"
+  },
+  {
+    "brand": "Redken",
+    "name": "Color Conditioner",
+    "category": "Conditioner",
+    "price": "$16.50"
+  },
+  {
+    "brand": "Redken",
+    "name": "Men’s Finish Up Conditioner",
+    "category": "Conditioner",
+    "price": "$15.50"
+  },
+  {
+    "brand": "ISO",
+    "name": "Daily Finish Spray",
+    "category": "Spray",
+    "price": "$13.50"
+  },
+  {
+    "brand": "ISO",
+    "name": "Bouncy Cream Gel",
+    "category": "Gel",
+    "price": "$10.00"
+  },
+  {
+    "brand": "Schwarzkopf",
+    "name": "Repair F Gel",
+    "category": "Gel",
+    "price": "$14.95"
+  },
+  {
+    "brand": "Schwarzkopf",
+    "name": "Color Conditioner",
+    "category": "Conditioner",
+    "price": "$18.00"
+  },
+  {
+    "brand": "Schwarzkopf",
+    "name": "Smooth Conditioner",
+    "category": "Conditioner",
+    "price": "$18.00"
+  },
+  {
+    "brand": "Redken",
+    "name": "All Soft Conditioner",
+    "category": "Conditioner",
+    "price": "$13.95"
+  },
+  {
+    "brand": "ISO",
+    "name": "Bouncy Creme Ltr",
+    "category": "Conditioner",
+    "price": "$23.00"
+  },
+  {
+    "brand": "Kenra",
+    "name": "#9 Finishing Spray",
+    "category": "Spray",
+    "price": "$22.00"
+  },
+  {
+    "brand": "Joico",
+    "name": "Daily Detangler Conditioner",
+    "category": "Conditioner",
+    "price": "$12.00"
+  },
+  {
+    "brand": "Paul Mitchell",
+    "name": "Tea Tree Conditioner Ltr",
+    "category": "Conditioner",
+    "price": "$32.50"
+  },
+  {
+    "brand": "Tea Tree",
+    "name": "Hair & Body Conditioner",
+    "category": "Conditioner",
+    "price": "$12.00"
+  },
+  {
+    "brand": "ISO",
+    "name": "Bouncy Shampoo",
+    "category": "Shampoo",
+    "price": "$14.00"
+  },
+  {
+    "brand": "ISO",
+    "name": "Color Conditioner",
+    "category": "Conditioner",
+    "price": "$14.00"
+  },
+  {
+    "brand": "Miss Pro",
+    "name": "Travel Sizes",
+    "category": "Conditioner",
+    "price": "$5.00"
+  },
+  {
+    "brand": "Paul Mitchell",
+    "name": "Firm Body Thickening Gel",
+    "category": "Gel",
+    "price": "$16.50"
+  },
+  {
+    "brand": "Matrix",
+    "name": "Biolage Strengthening Color Conditioner",
+    "category": "Conditioner",
+    "price": "$16.95"
+  },
+  {
+    "brand": "Biolage",
+    "name": "Olive Gel",
+    "category": "Gel",
+    "price": "$17.00"
+  },
+  {
+    "brand": "Redken",
+    "name": "Real Control Conditioner",
+    "category": "Conditioner",
+    "price": "$17.00"
+  },
+  {
+    "brand": "Nioxin",
+    "name": "#3 Cleanser Shampoo",
+    "category": "Shampoo",
+    "price": "$45.00"
+  },
+  {
+    "brand": "Nioxin",
+    "name": "Shampoo Ltr",
+    "category": "Shampoo",
+    "price": "$45.00"
+  },
+  {
+    "brand": "Paul Mitchell",
+    "name": "Express Worked Up Spray",
+    "category": "Spray",
+    "price": "$20.00"
+  },
+  {
+    "brand": "Kenra",
+    "name": "#17 Styling Gel",
+    "category": "Gel",
+    "price": "$14.00"
+  },
+  {
+    "brand": "Big Sexy",
+    "name": "Curling Cream",
+    "category": "Mousse",
+    "price": "$14.95"
+  },
+  {
+    "brand": "Nioxin",
+    "name": "#3 Shampoo 10oz",
+    "category": "Shampoo",
+    "price": "$19.50"
+  },
+  {
+    "brand": "Paul Mitchell",
+    "name": "Spray Wax",
+    "category": "Spray",
+    "price": "$19.50"
+  },
+  {
+    "brand": "Nioxin",
+    "name": "#2 Shampoo",
+    "category": "Shampoo",
+    "price": "$22.00"
+  },
+  {
+    "brand": "Nioxin",
+    "name": "#3 Conditioner Ltr",
+    "category": "Conditioner",
+    "price": "$50.00"
+  },
+  {
+    "brand": "Biolage",
+    "name": "Fiberstrong Shampoo",
+    "category": "Shampoo",
+    "price": "$24.00"
+  },
+  {
+    "brand": "Biolage",
+    "name": "Fiberstrong Conditioner",
+    "category": "Conditioner",
+    "price": "$24.00"
+  },
+  {
+    "brand": "Biolage",
+    "name": "Colorlast Conditioner",
+    "category": "Conditioner",
+    "price": "$24.00"
+  },
+  {
+    "brand": "Biolage",
+    "name": "Colorlast Shampoo",
+    "category": "Shampoo",
+    "price": "$24.00"
+  },
+  {
+    "brand": "Biolage",
+    "name": "Keratindose Shampoo",
+    "category": "Shampoo",
+    "price": "$24.00"
+  },
+  {
+    "brand": "Biolage",
+    "name": "Keratindose Conditioner",
+    "category": "Conditioner",
+    "price": "$24.00"
+  },
+  {
+    "brand": "Biolage",
+    "name": "Curl Elixir",
+    "category": "Gel",
+    "price": "$16.50"
+  },
+  {
+    "brand": "Biolage",
+    "name": "Hydrasource Conditioner",
+    "category": "Conditioner",
+    "price": "$24.00"
+  },
+  {
+    "brand": "Redken",
+    "name": "Men’s Mint Shampoo",
+    "category": "Shampoo",
+    "price": "$14.00"
+  },
+  {
+    "brand": "Kenra",
+    "name": "#30 Spray",
+    "category": "Spray",
+    "price": "$14.00"
+  },
+  {
+    "brand": "Nioxin",
+    "name": "#4 Shampoo 10oz",
+    "category": "Shampoo",
+    "price": "$24.50"
+  },
+  {
+    "brand": "Nioxin",
+    "name": "#4 Conditioner 16oz",
+    "category": "Conditioner",
+    "price": "$26.50"
+  },
+  {
+    "brand": "ISO",
+    "name": "Tamer Foam",
+    "category": "Mousse",
+    "price": "$12.00"
+  },
+  {
+    "brand": "Kenra",
+    "name": "Curl Gel",
+    "category": "Gel",
+    "price": "$14.00"
+  },
+  {
+    "brand": "Kenra",
+    "name": "#18 Firm Spray",
+    "category": "Spray",
+    "price": "$17.00"
+  },
+  {
+    "brand": "Nioxin",
+    "name": "Body Foam",
+    "category": "Mousse",
+    "price": "$15.50"
+  },
+  {
+    "brand": "Nioxin",
+    "name": "Gel",
+    "category": "Gel",
+    "price": "$20.00"
+  },
+  {
+    "brand": "Nioxin",
+    "name": "Hairspray",
+    "category": "Spray",
+    "price": "$18.50"
+  },
+  {
+    "brand": "Joico",
+    "name": "Curl Foam",
+    "category": "Mousse",
+    "price": "$17.95"
+  },
+  {
+    "brand": "Joico",
+    "name": "Curl Milk",
+    "category": "Conditioner",
+    "price": "$18.95"
+  },
+  {
+    "brand": "Joico",
+    "name": "Curl Anti-Frizz",
+    "category": "Gel",
+    "price": "$14.95"
+  },
+  {
+    "brand": "Nioxin",
+    "name": "#4 Shampoo",
+    "category": "Shampoo",
+    "price": "$19.50"
+  },
+  {
+    "brand": "ISO",
+    "name": "Bouncy Shampoo",
+    "category": "Shampoo",
+    "price": "$14.00"
+  },
+  {
+    "brand": "Paul Mitchell",
+    "name": "Fast Dry Sculpt",
+    "category": "Gel",
+    "price": "$23.00"
+  },
+  {
+    "brand": "Biolage",
+    "name": "Colorlast Conditioner",
+    "category": "Conditioner",
+    "price": "$25.95"
+  },
+  {
+    "brand": "ISO",
+    "name": "Bouncy Conditioner",
+    "category": "Conditioner",
+    "price": "$14.00"
+  },
+  {
+    "brand": "ISO",
+    "name": "Bouncy Cream",
+    "category": "Conditioner",
+    "price": "$12.50"
+  },
+  {
+    "brand": "Biolage",
+    "name": "Colorlast Shine Conditioner",
+    "category": "Conditioner",
+    "price": "$15.00"
+  },
+  {
+    "brand": "Biolage",
+    "name": "Hydracreme Shampoo",
+    "category": "Shampoo",
+    "price": "$23.00"
+  },
+  {
+    "brand": "Biolage",
+    "name": "Hydrasource Ltr Conditioner",
+    "category": "Conditioner",
+    "price": "$23.95"
+  },
+  {
+    "brand": "Biolage",
+    "name": "Masterful Spray",
+    "category": "Spray",
+    "price": "$17.00"
+  },
+  {
+    "brand": "Biolage",
+    "name": "Smooth Shampoo",
+    "category": "Shampoo",
+    "price": "$17.00"
+  },
+  {
+    "brand": "Biolage",
+    "name": "Smooth Cream Conditioner",
+    "category": "Conditioner",
+    "price": "$16.95"
+  },
+  {
+    "brand": "Biolage",
+    "name": "Volume Shampoo",
+    "category": "Shampoo",
+    "price": "$24.00"
+  },
+  {
+    "brand": "Biolage",
+    "name": "Volume Conditioner",
+    "category": "Conditioner",
+    "price": "$24.00"
+  },
+  {
+    "brand": "Biolage",
+    "name": "Sugar Shampoo",
+    "category": "Shampoo",
+    "price": "$24.00"
+  },
+  {
+    "brand": "Biolage",
+    "name": "Sugar Conditioner",
+    "category": "Conditioner",
+    "price": "$24.00"
+  },
+  {
+    "brand": "Redken",
+    "name": "Color Shampoo",
+    "category": "Shampoo",
+    "price": "$15.50"
+  },
+  {
+    "brand": "Paul Mitchell",
+    "name": "Scalp Shampoo",
+    "category": "Shampoo",
+    "price": "$33.00"
+  },
+  {
+    "brand": "Paul Mitchell",
+    "name": "Scalp Set 34oz",
+    "category": "Set",
+    "price": "$60.50"
+  },
+  {
+    "brand": "Paul Mitchell",
+    "name": "Scalp Set 10oz",
+    "category": "Set",
+    "price": "$38.00"
+  },
+  {
+    "brand": "Paul Mitchell",
+    "name": "Scalp Shampoo Ltr",
+    "category": "Shampoo",
+    "price": "$19.00"
+  },
+  {
+    "brand": "Paul Mitchell",
+    "name": "Scalp Conditioner 10oz",
+    "category": "Conditioner",
+    "price": "$20.00"
+  },
+  {
+    "brand": "Paul Mitchell",
+    "name": "Scalp Tonic",
+    "category": "Conditioner",
+    "price": "$29.00"
+  },
+  {
+    "brand": "Paul Mitchell",
+    "name": "Hold Me Tight",
+    "category": "Spray",
+    "price": "$21.50"
+  },
+  {
+    "brand": "Paul Mitchell",
+    "name": "Skinny Serum",
+    "category": "Conditioner",
+    "price": "$12.50"
+  },
+  {
+    "brand": "Joico",
+    "name": "K Conditioner",
+    "category": "Conditioner",
+    "price": "$17.00"
+  },
+  {
+    "brand": "Joico",
+    "name": "K Shampoo",
+    "category": "Shampoo",
+    "price": "$15.00"
+  },
+  {
+    "brand": "Rusk",
+    "name": "Freeze Spray",
+    "category": "Spray",
+    "price": "$19.00"
+  },
+  {
+    "brand": "Redken",
+    "name": "Ringlet",
+    "category": "Gel",
+    "price": "$26.50"
+  },
+  {
+    "brand": "Redken",
+    "name": "Curvaceous Full",
+    "category": "Gel",
+    "price": "$10.00"
+  },
+  {
+    "brand": "Redken",
+    "name": "Men’s Spice Shampoo",
+    "category": "Shampoo",
+    "price": "$14.40"
+  },
+  {
+    "brand": "Redken",
+    "name": "Diamond Oil Shampoo",
+    "category": "Shampoo",
+    "price": "$18.50"
+  },
+  {
+    "brand": "Redken",
+    "name": "Diamond Oil Conditioner",
+    "category": "Conditioner",
+    "price": "$22.00"
+  },
+  {
+    "brand": "Redken",
+    "name": "Diamond Oil Silk Conditioner",
+    "category": "Conditioner",
+    "price": "$10.00"
+  },
+  {
+    "brand": "Redken",
+    "name": "Diamond Oil Deep Conditioner",
+    "category": "Conditioner",
+    "price": "$12.00"
+  },
+  {
+    "brand": "Redken",
+    "name": "Diamond Oil Conditioner",
+    "category": "Conditioner",
+    "price": "$19.50"
+  },
+  {
+    "brand": "Joico",
+    "name": "Moisture Conditioner",
+    "category": "Conditioner",
+    "price": "$17.95"
+  },
+  {
+    "brand": "Redken",
+    "name": "Diamond Oil Conditioner",
+    "category": "Conditioner",
+    "price": "$45.00"
+  },
+  {
+    "brand": "Nioxin",
+    "name": "Conditioner #4 Ltr",
+    "category": "Conditioner",
+    "price": "$50.00"
+  },
+  {
+    "brand": "Redken",
+    "name": "Heat Design 09",
+    "category": "Gel",
+    "price": "$19.00"
+  },
+  {
+    "brand": "Redken",
+    "name": "Iron Shape 11",
+    "category": "Gel",
+    "price": "$18.00"
+  },
+  {
+    "brand": "Redken",
+    "name": "Wind Blown 05",
+    "category": "Spray",
+    "price": "$19.00"
+  },
+  {
+    "brand": "Redken",
+    "name": "Move Ability 05",
+    "category": "Mousse",
+    "price": "$19.50"
+  },
+  {
+    "brand": "Redken",
+    "name": "Mess Around 10",
+    "category": "Mousse",
+    "price": "$19.50"
+  },
+  {
+    "brand": "Redken",
+    "name": "Extreme Anti-Snap Conditioner",
+    "category": "Conditioner",
+    "price": "$18.00"
+  },
+  {
+    "brand": "Nioxin",
+    "name": "#4 Conditioner",
+    "category": "Conditioner",
+    "price": "$24.00"
+  },
+  {
+    "brand": "Biolage",
+    "name": "Hydra Seal Spray Conditioner",
+    "category": "Conditioner",
+    "price": "$17.00"
+  },
+  {
+    "brand": "Milkshake",
+    "name": "Normalizing Shampoo",
+    "category": "Shampoo",
+    "price": "$24.00"
+  },
+  {
+    "brand": "Milkshake",
+    "name": "Purifying Shampoo",
+    "category": "Shampoo",
+    "price": "$24.00"
+  },
+  {
+    "brand": "Milkshake",
+    "name": "Energizing Conditioner",
+    "category": "Conditioner",
+    "price": "$24.00"
+  },
+  {
+    "brand": "Milkshake",
+    "name": "Color Shampoo",
+    "category": "Shampoo",
+    "price": "$20.00"
+  },
+  {
+    "brand": "Milkshake",
+    "name": "Color Conditioner",
+    "category": "Conditioner",
+    "price": "$19.00"
+  },
+  {
+    "brand": "Milkshake",
+    "name": "Hairspray",
+    "category": "Spray",
+    "price": "$20.00"
+  },
+  {
+    "brand": "Milkshake",
+    "name": "Smoothing Conditioner",
+    "category": "Conditioner",
+    "price": "$24.00"
+  },
+  {
+    "brand": "Milkshake",
+    "name": "12 Effects Conditioner",
+    "category": "Conditioner",
+    "price": "$26.00"
+  },
+  {
+    "brand": "Milkshake",
+    "name": "Whipped Cream Conditioner",
+    "category": "Conditioner",
+    "price": "$22.00"
+  },
+  {
+    "brand": "Milkshake",
+    "name": "Leave In Conditioner",
+    "category": "Conditioner",
+    "price": "$24.00"
+  },
+  {
+    "brand": "Milkshake",
+    "name": "Leave In Conditioner",
+    "category": "Conditioner",
+    "price": "$24.00"
+  },
+  {
+    "brand": "Milkshake",
+    "name": "Hairspray Me",
+    "category": "Spray",
+    "price": "$25.00"
+  },
+  {
+    "brand": "Redken",
+    "name": "Pillow Proof Ltr Conditioner",
+    "category": "Conditioner",
+    "price": "$22.50"
+  },
+  {
+    "brand": "Redken",
+    "name": "Triple Take",
+    "category": "Spray",
+    "price": "$25.00"
+  },
+  {
+    "brand": "Redken",
+    "name": "Control Addict",
+    "category": "Spray",
+    "price": "$24.00"
+  },
+  {
+    "brand": "Biolage",
+    "name": "Sugar Shine Conditioner",
+    "category": "Conditioner",
+    "price": "$26.00"
+  },
+  {
+    "brand": "Redken",
+    "name": "Outplay Putty",
+    "category": "Gel",
+    "price": "$18.50"
+  },
+  {
+    "brand": "Redken",
+    "name": "Men’s Work Hard",
+    "category": "Gel",
+    "price": "$17.50"
+  },
+  {
+    "brand": "CBD",
+    "name": "Daily Cream",
+    "category": "Gel",
+    "price": "$25.00"
+  },
+  {
+    "brand": "Milkshake",
+    "name": "Leave In Ltr",
+    "category": "Conditioner",
+    "price": "$42.00"
+  },
+  {
+    "brand": "Redken",
+    "name": "Color Extend Conditioner",
+    "category": "Conditioner",
+    "price": "$18.00"
+  },
+  {
+    "brand": "Redken",
+    "name": "Curl Refiner",
+    "category": "Gel",
+    "price": "$25.00"
+  },
+  {
+    "brand": "ISO",
+    "name": "Color Shampoo Ltr",
+    "category": "Shampoo",
+    "price": "$23.00"
+  },
+  {
+    "brand": "Kenra",
+    "name": "#18 Memory Cream",
+    "category": "Mousse",
+    "price": "$24.00"
+  },
+  {
+    "brand": "Milkshake",
+    "name": "Silver Shampoo",
+    "category": "Shampoo",
+    "price": "$26.00"
+  },
+  {
+    "brand": "Kenra",
+    "name": "Blowdry Spray 1.7",
+    "category": "Spray",
+    "price": "$17.00"
+  },
+  {
+    "brand": "Redken",
+    "name": "All Soft Conditioner",
+    "category": "Conditioner",
+    "price": "$31.95"
+  },
+  {
+    "brand": "Paul Mitchell",
+    "name": "Extra Body Sculpt",
+    "category": "Gel",
+    "price": "$17.00"
+  }
+]
